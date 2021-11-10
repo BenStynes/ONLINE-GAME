@@ -1,0 +1,39 @@
+1.
+
+|A	57059	|B	8080	   |
+|C		1		   |
+|D		7845		   |
+|E 20bytes|F not set|G 0x018|H 8208|
+|I 0xb59e	|J	0	   |
+|K	payload 51 bytes	   |
+
+A: the source porot for tcp is the  port number used by the computer sending the tcp segment
+B: the destination port for tcp is the port number used by the computer receving the tcp packet
+C: used for segmentation of application data into tcp segments and reassembling them on the other side.
+D: ackowlegment number
+E: offset data 
+F: resevered data
+G: flags
+H: window
+I: checksum
+J: urgent pointer
+K:data 
+2.
+| A	54915	| B	 54915	|
+| C	271	| D	0x937c	|
+
+
+A:  Source Port the sender's port, when used, and should be assumed to be the port to reply to if needed. 
+B:  Desitination  the receiver's port and is required.
+C:  Lengthhe length of the header
+D:  Checksum may be used for error-checking of the header and data.
+
+
+3. 110110010000011
+
+4. Youtube uses tcp.
+
+
+
+
+
