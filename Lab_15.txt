@@ -1,0 +1,7 @@
+(a) Cheating in online games is the action of pretending to comply with the rules of the game, while secretly subverting them to gain an unfair advantage over an opponent. Describe two ways of cheating. Please include details of how each cheating works and a mechanism to prevent it.
+
+packet sniffer used to read the data being recieved in packets , then put through a tool that shows the state of the  gameworld from this as well a third party app or tool can use said data to come up with stats that the player could read encrypting data is a good counter..
+
+stack buffer overruns forces the app to execute code injected by the attacker, when a func is called the adress of the origainal call is saved to the stack, this way of cheating changes the address to the malicous code injected , can be prveneted by stack guards.
+
+(b) Interest management is important for good network performance in massively multiplayer games. Interest management cuts down the bandwidth usage by filtering irrelevant updates. What is a potentially visible set, and how does this approach differ from static zones? How do these interest management approaches benefit the game?

@@ -1,0 +1,11 @@
+(a) One method of reducing bandwidth use is to compress the data being transmitted. Let A = {a/20, b/15, c/5, d/15, e/45} be the alphabet and its frequency distribution. Compute the optimal coding for each character. What is the average number of bits/symbol of the codes?
+
+A = 10 B = 1111 C = 1110 D = 110 E = 0
+
+Average = A(2) + b(4) + c(4) + d(3) + e(1) = 14/5 = 2.8
+
+(b) Briefly explain how delta compression works and give an application as example where delta compression is used.
+
+
+
+(c) One method of reducing bandwidth use is to compress the data being transmitted. Use the LZW algorithm to compress the string: BABAABAAA. Note that Uppercase A has ASCII value 65 in decimal. Draw diagrams to aid your explanation if appropriate.

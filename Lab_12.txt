@@ -1,0 +1,21 @@
+(a) What are the advantages and disadvantages of the client/server and peer to peer multiplayer game architectures?  
+
+Advantahes of client server is that it gives the game publisher more control over the server and autehthication and updates are easier to rollout, the networking
+code is simpler to right most of the the time and can be seperatly updated without effecting the game.
+
+disadvantages include servers having to be physically operated and mantained, they do not scale as such you must have the player amount predetermined. Limiting service avalibilty.
+
+p2p  advantahes of it are its cheaper and no need for a server, scales well up to a point in terms of badwitch, good data distribution so user created content syncs better
+stability it usually has better stability than a server wjere if one thing goes wrong it all goes wrong,
+
+disadvantages include it being hard to implement . harder to prevenet any form of cheating, also security then is also harder to achieve , a cloents connection can influence the game for others
+port forwarding may be required. 
+
+(b) In the peer-to-peer network architecture with authoritative host, how the peers communicate with each other? Draw diagrams to aid your explanation if appropriate.        
+
+host 1 is the autoritative host , host 2 connects to 1 , host 3 connects to host 1 as well, host 1 knows the information of data ip and port of the connected ones to it, host 1 gives information out both host 2 , host 3's data and vice versa
+so that the two hosts can connect using each other
+
+(c) In the context of "port restricted" NAT devices, what does the hole-punching technique do? Describe this technique, using a diagram to aid your explanation if appropriate. 
+
+Holde punching breaches the firewall by puncturing a hole through it that then allows a packet to be sent from an outside system.

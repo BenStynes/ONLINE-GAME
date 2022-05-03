@@ -1,0 +1,20 @@
+(a) Can latency be eliminated completely? Explain why.
+
+No due to a lot of reasons , mainky being the time of transfer of data no matter what there whill always be some latency with that, and the time requoired to push packets , communication link speed,
+queing at routers or desitaination nodes.
+
+(b) Use an example (shooting round corners/fire-proof problem, etc.) to  illustrate how latency is related to consistency? Use diagrams if appropriate.                        
+
+in an fps if a player has high latency to them it may appear they got shot from nowhere while on the other players screen they shot them before they went around the corner , if  the player shooting had low latency then they would miss every hit usually if the opponent had high latency.
+two players with similar levels will barelt experience that.
+
+(c) There are two categories of techniques for consistency management: optimistic and conservative. Which category do the following techniques belong to: dumb client and client-side prediction. Describe the dumb client and client-side prediction.
+
+dumb client: conservative 
+
+client side predicition: optomisitic 
+
+dumb client: client sends input to server , server caculates state, sends to client, client renders state from server
+
+client side prediction: sends out inputs to the server  applies them localy instantly in order to update state, server can override player if simulation has a constraint player doesnt know about, when recive the update from server check if it is different from local if so correct your local.
+
